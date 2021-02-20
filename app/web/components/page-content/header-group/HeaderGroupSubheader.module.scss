@@ -1,0 +1,11 @@
+@import '../../../../sass/variables.colors';
+@import 'variables';
+
+.root {
+  margin: 0 $_horizontal_margin;
+}
+
+.text {
+  color: $gray;
+  font-size: 17px;
+}

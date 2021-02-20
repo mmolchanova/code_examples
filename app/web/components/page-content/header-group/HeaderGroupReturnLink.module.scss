@@ -1,0 +1,16 @@
+@import 'variables';
+
+.root {
+  flex: 0 0 100%;
+  margin: 0 0 20px;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 $_horizontal_margin;
+}
+
+.icon {
+  margin-right: 8px;
+}

@@ -1,0 +1,16 @@
+@import 'variables';
+
+.root {
+  display: none;
+
+  @media only screen and (min-width: 1024px) {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin: 0 (-1 * $_horizontal_margin) 20px;
+  }
+}
+
+.state_always-visible {
+  display: flex;
+}

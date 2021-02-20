@@ -1,0 +1,10 @@
+@import './variables';
+
+
+.input-wrap {
+  margin: $_vertical-spacing 20px $_vertical-spacing $_vertical-spacing;
+}
+
+.help-block {
+  max-width: 380px;
+}
